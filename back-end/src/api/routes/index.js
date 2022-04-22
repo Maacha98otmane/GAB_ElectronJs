@@ -6,3 +6,4 @@ export { router as amountRouter } from './amountRouter';
 export { router as electriciteRouter } from './electriciteRouter';
 export { router as ticketRouter } from './ticketRouter';
 export { router as rechargeRouter } from './rechargeRouter';
+export { router as vignetteRouter } from './vignetteRouter';

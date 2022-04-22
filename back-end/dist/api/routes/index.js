@@ -51,6 +51,12 @@ Object.defineProperty(exports, "userRouter", {
     return _userRouter.router;
   }
 });
+Object.defineProperty(exports, "vignetteRouter", {
+  enumerable: true,
+  get: function get() {
+    return _vignetteRouter.router;
+  }
+});
 
 var _userRouter = require("./userRouter");
 
@@ -67,3 +73,5 @@ var _electriciteRouter = require("./electriciteRouter");
 var _ticketRouter = require("./ticketRouter");
 
 var _rechargeRouter = require("./rechargeRouter");
+
+var _vignetteRouter = require("./vignetteRouter");

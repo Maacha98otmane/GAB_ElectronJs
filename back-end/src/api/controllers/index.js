@@ -15,3 +15,5 @@ export { createElectricite,getElectricite,payer } from "./electriciteController"
 export { findVoyage,payerVoyage } from "./ticketController"
 
 export { payerRecharge } from "./rechargeController"
+
+export { payerVignette } from "./vignetteController"

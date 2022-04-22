@@ -13,6 +13,7 @@ import {
           userRouter,
           amountRouter,
           ticketRouter,
+          vignetteRouter,
           rechargeRouter
         
         } from './api/routes'
@@ -36,6 +37,7 @@ app.use("/api/amount", amountRouter);
 app.use("/api/stripe", stripeRouter);
 app.use("/api/ticket", ticketRouter);
 app.use("/api/recharge", rechargeRouter);
+app.use("/api/vignette", vignetteRouter);
 
 app.listen(port, () => {
   console.log(`Running on http://${host}:${port}`);

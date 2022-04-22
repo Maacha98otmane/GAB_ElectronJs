@@ -117,6 +117,12 @@ Object.defineProperty(exports, "payerRecharge", {
     return _rechargeController.payerRecharge;
   }
 });
+Object.defineProperty(exports, "payerVignette", {
+  enumerable: true,
+  get: function get() {
+    return _vignetteController.payerVignette;
+  }
+});
 Object.defineProperty(exports, "payerVoyage", {
   enumerable: true,
   get: function get() {
@@ -159,3 +165,5 @@ var _electriciteController = require("./electriciteController");
 var _ticketController = require("./ticketController");
 
 var _rechargeController = require("./rechargeController");
+
+var _vignetteController = require("./vignetteController");

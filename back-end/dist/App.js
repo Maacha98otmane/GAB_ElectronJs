@@ -35,6 +35,7 @@ app.use("/api/amount", _routes.amountRouter);
 app.use("/api/stripe", _routes.stripeRouter);
 app.use("/api/ticket", _routes.ticketRouter);
 app.use("/api/recharge", _routes.rechargeRouter);
+app.use("/api/vignette", _routes.vignetteRouter);
 app.listen(port, function () {
   console.log("Running on http://".concat(host, ":").concat(port));
 });
